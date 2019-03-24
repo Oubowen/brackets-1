@@ -16,8 +16,5 @@ module.exports = function check(str, bracketsConfig) {
   tempLength = tempLength - 2;
   }
   
-  if (tempStr.length == 0) 
-    return true;
-  
-  return false;
+  return tempStr.length == 0
 }
